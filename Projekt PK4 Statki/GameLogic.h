@@ -21,6 +21,11 @@ class Game_Logic
 			if_ship_shot[x][y] = 0;
 			if_ship_there[x][y] = 1;
 		}
+		void shoot_ship(int x, int y)
+		{
+			if_ship_shot[x][y] = 1;
+
+		}
 		
 
 };
